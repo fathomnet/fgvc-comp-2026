@@ -9,7 +9,7 @@ Underwater imaging opens a unique window into the deep sea. It is one of the few
 The biggest problem? Incomplete labels. Marine biologists are experts in specific animals so they only tag what they know in each photo. This means the same image might have carefully labeled jellyfish but completely ignore the dozen other creatures swimming by. Just because something isn't labeled doesn't mean it isn't there. And that's a serious problem for anyone trying to teach a computer to recognize ocean life.
 Description
 
-See our kaggle competition page [here](https://www.kaggle.com/competitions/fathomnet-2026)
+See our kaggle competition page [here](https://www.kaggle.com/competitions/fathomnet-2026).
 
 # Description
 The FathomNet 2026 challenge addresses this real-world constraint by focusing on positive-unlabeled learning for object detection. Developing robust methods in this setting will reduce reliance on expert annotations, accelerate dataset curation, and broaden the usability of large-scale archives like the [FathomNet Database](https://database.fathomnet.org/fathomnet/#/). Ultimately, improving detection under positive-unlabeled regimes will support scalable biodiversity monitoring, enhance conservation strategies, and enable marine researchers to extract ecological insights from decades of imagery.
