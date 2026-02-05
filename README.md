@@ -2,12 +2,22 @@
 
 Positive-Unlabeled Object Detection in Marine Images
 
+## Timeline
+- 17 November 2025: Registration opens for all LifeCLEF challenges (registration is free of charge)
+- 1 February – 1 March 2026: Competition Start (depending on the competition)
+- 23 April 2026: Registration closes for all LifeCLEF challenges
+- 7 May 2026: Kaggle Competition Deadline 
+- 28 May 2026: Deadline for submission of working note papers by participants [CEUR-WS proceedings]
+- 30 June 2026: Notification of acceptance of working note papers [CEUR-WS proceedings]
+- 6 July 2026: Camera-ready deadline for working note papers.
+- 21-24 Sept 2026: CLEF 2026 Jena - Germany
+All deadlines are at 11:59 PM CET of the corresponding day unless otherwise stated. The competition organizers reserve the right to update the contest timeline if they deem it necessary.
+
 # Overview
 
-Underwater imaging opens a unique window into the deep sea. It is one of the few ways scientists can directly observe marine animals and habitats, creating visual records that are essential for understanding our changing ocean. But the ocean generates more data than humans can handle and computer vision is vital to process the thousands of hours of video collected by researchers around the world. Compared to terrestrial datasets, marine imagery presents many unique challenges for computer vision. 
+Underwater imaging opens a unique window into the deep sea. It is one of the few ways scientists can directly observe marine animals and habitats, creating visual records that are essential for understanding our changing ocean. But humans generate more ocean data than we can handle, and computer vision is vital to process the thousands of hours of video collected by researchers around the world. Compared to terrestrial datasets, marine imagery presents many unique challenges for computer vision, including high taxonomic diversity, visually similar morphologies, and environments that range from benthic habitats to the open midwater.
 
-The biggest problem? Incomplete labels. Marine biologists are experts in specific animals so they only tag what they know in each photo. This means the same image might have carefully labeled jellyfish but completely ignore the dozen other creatures swimming by. Just because something isn't labeled doesn't mean it isn't there. And that's a serious problem for anyone trying to teach a computer to recognize ocean life.
-Description
+One of the biggest challenges? Incomplete labels. Marine biologists are experts in specific animals so they only label what they know in each image. Consequently, annotators may carefully focus on jellyfish in a given image, while ignoring the dozen other creatures swimming by. Just because something isn't labeled doesn't mean it isn't there, and that's a serious problem for anyone trying to teach a computer to recognize all ocean life.
 
 See our kaggle competition page [here](https://www.kaggle.com/competitions/fathomnet-2026).
 
@@ -46,7 +56,7 @@ Please feel free to open an issue on the competition git repo if you have a ques
 
 ### Acknowledgments
 
-The images for this competition have been generously provided by MBARI, the Schmidt Ocean Institute, Dawn Wright, NOAA, Ocean Networks Canada, Joost Daniels and others. Annotations were made possible through the support of FathomNet and experts from the MBARI Video Lab. Special acknowledgment is given to Marine Biologist Linda Kuhnz for her invaluable expertise in generating a substantial portion of the ground truth dataset.
+The images and annotations for this competition have been generously provided by FathomNet, MBARI, the Schmidt Ocean Institute, Dawn Wright, NOAA, Ocean Networks Canada, Joost Daniels. Special acknowledgment is given to Marine Biologist Linda Kuhnz for her invaluable expertise in generating a substantial portion of the ground truth dataset.
 
 # Citation
 Kevin Barnard and Laura Chrobak. FathomNetCLEF2026 @ LifeCLEF & CVPR-FGVC. https://kaggle.com/competitions/fathomnet-2026, Unpublished. Kaggle.
@@ -105,8 +115,11 @@ download.py - python script to download imagery from FathomNet
 * **`download.py`** \- python script to download imagery from FathomNet
 
 
+## Guidelines
+Participants should not use other image sets to train their models outside of the FathomNet-CLEF Kaggle competition data and the FathomNet Database website, however they can leverage other types of outside data sources for other aspects of the competition. Pre-trained models can be used for initialization of training. Teams should plan on specifying additional data sources and/or pre-trained models used when uploading results.
+
 ## Terms of Use
-By downloading and using this dataset you are agreeing to FathomNet's [data use](https://www.fathomnet.org/datause) policy. In particular: The images are licensed under one of three Creative Commons licenses: CC0, CC-BY, CC-BY-NC, and CC-BY-NC-ND.  The annotations are licensed under a Creative Commons license CC0, CC-BY or CC-BY-NC. Notwithstanding the foregoing, all of the images may be used for training and development of machine learning algorithms for commercial, academic, and government purposes. Images and annotations are provided by the copyright holders and contributors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. Please acknowledge FathomNet and MBARI when using images for publication or communication purposes regarding this competition. For all other uses of the images, users should contact the original copyright holder. For more details please see the FathomNet Database [Terms of Use](https://www.fathomnet.org/terms).
+By downloading and using this dataset you are agreeing to FathomNet's [data use](https://www.fathomnet.org/datause) policy. In particular: The images are licensed under one of three Creative Commons licenses: [CC0](https://creativecommons.org/public-domain/cc0/#:~:text=CC0%20enables%20scientists%2C%20educators%2C%20artists,works%20for%20any%20purposes%20without), [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en), [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/deed.en), and [CC-BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en).  The annotations are licensed under a Creative Commons license CC0, CC-BY or CC-BY-NC. For more details please see the FathomNet Database [Terms of Use](https://www.fathomnet.org/terms).
 
 ## Download
 
