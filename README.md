@@ -1,4 +1,4 @@
-# FGVC Kaggle Competition 2026
+# FathomNetCLEF2026 @ LifeCLEF & CVPR-FGVC
 
 Positive-Unlabeled Object Detection in Marine Images
 
