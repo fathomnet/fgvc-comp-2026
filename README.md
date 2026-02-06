@@ -4,7 +4,7 @@ Positive-Unlabeled Object Detection in Marine Images
 
 ## Timeline
 - 17 November 2025: Registration opens for all LifeCLEF challenges (registration is free of charge)
-- 1 February – 1 March 2026: Competition Start (depending on the competition)
+- 6 February – 7 March 2026: Competition Start (depending on the competition)
 - 23 April 2026: Registration closes for all LifeCLEF challenges
 - 7 May 2026: Kaggle Competition Deadline 
 - 28 May 2026: Deadline for submission of working note papers by participants [CEUR-WS proceedings]
